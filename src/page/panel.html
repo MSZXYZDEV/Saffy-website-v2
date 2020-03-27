@@ -7,7 +7,7 @@
 	<meta name="description" content="Saffy v2 Bot">
 	<meta name="keywords" content="Saffy bot">
 	<link rel="index" title="Strona główna" href="https://saffy.pl/">
-    <link rel="stylesheet" type="text/css" href="../style/stats.css">
+    <link rel="stylesheet" type="text/css" href="../style/panel.css">
     <link rel="icon" href="img" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/faa4922b3c.js" crossorigin="anonymous"></script>
@@ -19,22 +19,28 @@
 <header class="heading">
     <nav>
         <ul>
-            <li><a href="/" rel="index" class="Saffy">Saffy | Official</a></li>
+            <li><a href="/" rel="index" class="Saffy">Saffy Web Panel</a></li>
+            <li><button class="logout edit">Wyloguj</button></li>
         </ul>
     </nav>
 </header>
 <main>
 <div class="container">
-    <div class="container__online"><p>Online:</p><p>300</p></div>
-    <div class="container__players"><p>Użytkowników: </p><p>300</p></div>
-    <div class="container__pings"><p>Ping: </p><p>300</p></div>
-    <div class="container__uptime"><p>Uptime: </p><p>300</p></div>
-    <div class="container__servers"><p>Serwerów: </p><p>300</p></div>
-    <div class="container__channels"><p>Kanałów: </p><p>300</p></div>
-    <div class="container__data"><p>Data: </p><p>300</p></div>
-    <div class="container__houers"><p>Godzina: </p><p>300</p></div>
+    <div class="container__avatar">
+        <img src="../imgs/logo.png" alt="avatar użytkownika" class="container__avatar--avatar">
+    </div>
+    <div class="container__data">
+        <p>Imię: </p>
+        <p>Email: </p>
+        <p>Wiek: </p>
+        <p>Kasa: </p>
+        <p>Nick: </p>
+        <p>Ranga: </p>
+    </div>
+    <div class="container__edit--data">
+        <button class="container__edit--data edit">Zmień dane</button>
+    </div>
 </div>
 </main>
-<footer>Strona stworzona przez <a href="https://github.com/MSZXYZDEV">MSZXYZDEV</a></footer>
 </body>
 </html>
