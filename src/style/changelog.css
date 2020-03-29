@@ -72,16 +72,16 @@ main a {
         font-size: 15px;
         margin-top: 5px;
     }
-    .container {
+    article {
         display: grid;
-        grid-template-columns: 5fr 5fr;
+        grid-template-columns: 2fr 2fr;
         grid-gap: 10px;
-        margin-left: 20px;
+        margin-left: 25px;
         margin-top: 150px;
         text-align: center;
     }
     p {
-        width: 120px;
+        width: 150px;
         height: 70px;
         background-color: #fff;
         color: #2C2F33;

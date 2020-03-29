@@ -53,11 +53,7 @@ main a {
 .container__edit--data {
     position: relative;
     margin-left: 900px;
-    margin-top: -300px;
-}
-.logout {
-    position: relative;
-    margin-left: 1500px;
+    top: -150px;
 }
 .edit {
     border: 2px solid #B05CD6;
@@ -132,18 +128,19 @@ main a {
     }
     .container__edit--data {
         position: relative;
-        margin-left: 60px;
-        margin-top: -290px;
+        margin-left: 50px;
+        margin-top: 12px;
     }
     .edit {
         border: 2px solid #B05CD6;
         background-color: #B05CD6;
         border-radius: 5px;
-        padding: 2.5px;
+        padding: 1px;
         color: #fff;
     }
     .logout {
         position: relative;
         margin-left: 5px;
+        padding: 1px;
     }
 }
