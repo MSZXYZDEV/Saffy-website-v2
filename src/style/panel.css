@@ -52,8 +52,8 @@ main a {
 }
 .container__edit--data {
     position: relative;
-    margin-left: 900px;
-    top: -150px;
+    margin-left: 10px;
+    top: -40px;
 }
 .edit {
     border: 2px solid #B05CD6;
@@ -128,8 +128,8 @@ main a {
     }
     .container__edit--data {
         position: relative;
-        margin-left: 50px;
-        margin-top: 12px;
+        margin-left: 5px;
+        margin-top: 20px;
     }
     .edit {
         border: 2px solid #B05CD6;
