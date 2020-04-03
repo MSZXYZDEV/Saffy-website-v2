@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saffy V2 | Strona Glówna</title>
+    <title>Saffy V2 | Witamy!</title>
 	<meta name="description" content="Saffy v2 Bot">
 	<meta name="keywords" content="Saffy bot">
 	<link rel="index" title="Strona główna" href="https://saffy.pl/">
     <link rel="stylesheet" type="text/css" href="../style/panel.css">
     <link rel="icon" href="img" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/faa4922b3c.js" crossorigin="anonymous"></script>
     <!--[if lt IE 9]>
@@ -16,30 +17,45 @@
 	<![endif]-->
 </head>
 <body>
-<header class="heading">
-    <nav>
-        <ul>
-            <li><a href="/" rel="index" class="Saffy">Saffy Web Panel</a></li>
-            <li><button class="logout edit">Wyloguj</button></li>
-        </ul>
-    </nav>
-</header>
 <main>
-<div class="container">
-    <div class="container__avatar">
-        <img src="../imgs/logo.png" alt="avatar użytkownika" class="container__avatar--avatar">
-    </div>
-    <div class="container__data">
-        <p>Imię: </p>
-        <p>Email: </p>
-        <p>Wiek: </p>
-        <p>Kasa: </p>
-        <p>Nick: </p>
-        <p>Ranga: </p>
-    </div>
-    <div class="container__edit--data">
-        <button class="container__edit--data edit">Zmień dane</button>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Saffy - [tutaj nazwa serwera]</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav  ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../page/panel.html">Profil Użytkownika <span class="sr-only"></span></a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-unlock-alt"></i> Komendy </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-users-cog"></i> Włącz/Wyłącz usługi </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../page/panelmenu.html">Powrót <span class="sr-only"></span></a>
+                    </li>
+    </nav>
+
+    <h3 class="center">Profil</h3>
+    <h5>Avatar użytkownika - Chujcieto#6666</h3>
+    <h4>Dane</h4><h4 class="center">Jebane disa</h4>
+    <img class="avatar_img" src="../imgs/logo.png">
+    <p>Identyfikator:</p>
+    <p>Status:</p>
+    <p>Utworzenie:</p>
+    <h4>Konto</h4>
+    <p>Imię:</p>
+    <p>Wiek:</p>
+    <p>E-mail:</p>
+    <h4>Dane Globalne</h4>
+    
+    <p>Ranga:</p>
+    <p>Portfel</p>
+    <p>Odznaki</p>
+   
 </div>
 </main>
 </body>
