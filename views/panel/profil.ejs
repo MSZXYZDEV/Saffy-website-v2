@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saffy | Profil</title>
+	<meta name="description" content="Saffy v2 Bot">
+	<meta name="keywords" content="Saffy bot">
+	<link rel="index" title="Strona główna" href="https://saffy.pl/">
+    <link rel="stylesheet" type="text/css" href="/css/panel.css">
+    <link rel="icon" href="img" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/faa4922b3c.js" crossorigin="anonymous"></script>
+    <!--[if lt IE 9]>
+		<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<main>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="/panel" class="navbar-brand">Saffy Web Panel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav  ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/panel/profil">Profil Użytkownika <span class="sr-only"></span></a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/panel/guilds"><i class="fas fa-unlock-alt"></i> Serwery </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/panel/logout">Wyloguj <span class="sr-only"></span></a>
+                </li>
+    </nav>
+
+    <h3 class="center">Profil</h3>
+    <h5>Avatar użytkownika</h5>
+    <h4>Dane</h4><h4 class="center"></h4>
+    
+    <img class="avatar_img" src="https://cdn.discordapp.com/avatars/<%= user.id %>/<%= user.avatar %>.png">
+    <p>Identyfikator: <%= user.username %>#<%= user.discriminator %>  </p>
+    <h4>Konto</h4>
+    <p>Imię: <%= profil.user_name %> </p>
+    <p>Wiek: <%= profil.user_age %> </p>
+    <p>E-mail: <%= profil.user_mail %> </p>
+    <h4>Dane Globalne</h4>
+    
+    <p>Ranga: <%= profil.user_rank %> </p>
+    <p>Portfel: <%= profil.user_money %>$ </p>
+   
+</div>
+</main>
+</body>
+</html>

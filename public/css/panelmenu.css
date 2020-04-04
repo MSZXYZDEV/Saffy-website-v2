@@ -1,0 +1,13 @@
+body {
+    background-color: #3C3C3C;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #3C3C3C;
+}
+.jumbotron img {
+    border-radius: 360px;
+    width: 7%;
+    height: 7%;
+}
