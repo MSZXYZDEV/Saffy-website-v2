@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saffy | Strona Glówna</title>
+    <title>Saffy V2 | Strona Glówna</title>
 	<meta name="description" content="Saffy v2 Bot">
 	<meta name="keywords" content="Saffy bot">
 	<link rel="index" title="Strona główna" href="https://saffy.pl/">
-    <link rel="stylesheet" type="text/css" href="/css/panelmenu.css">
+    <link rel="stylesheet" type="text/css" href="../style/panelmenu.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="icon" href="img" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
@@ -20,29 +20,59 @@
 <body>
     
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a href="#" class="navbar-brand">Saffy Web Panel</a>
+            <a href="#" class="navbar-brand">Saffy - Panel</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav  ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="/">Strona Główna <span class="sr-only"></span></a>
+                    <a class="nav-link" href="https://saffy.pl/">Strona Główna <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/panel/logout"><i class="fas fa-users-cog"></i> Wyloguj się</a>
+                        <a class="nav-link" href="#"><i class="fas fa-unlock-alt"></i> Panel </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-users-cog"></i> Panel Administracji </a>
                     </li>
         </nav>
         <div class="jumbotron">
-            <img src="https://cdn.discordapp.com/avatars/<%= user.id %>/<%= user.avatar %>.png">
+            <img src="../imgs/logo.png">
             <div class="container">
-              <h1 class="">Witaj <%= user.username %>#<%= user.discriminator %></h1>
+              <h1 class="">Saffy</h1>
               <p class="lead">W tym panelu ustawisz wszystko co potrzebujesz!</p>
             </div>
-            <a class="btn btn-light" href="/panel/profil" class="link">Profil użytkownika</a>
-            <a class="btn btn-light" href="/panel/guilds" class="link">Serwery</a>
+            <button type="button" class="btn btn-light"><a href="" class="link">Invite</a></button>
+            <button type="button" class="btn btn-light"><a href="https://discord.gg/XQG2Yrd" class="link">Support Server</a></button>
           </div>
-
+          <div class="tabela">
+          <table class="table">
+            <thead>
+              <tr> 
+                <th><i class="fab fa-discord fa-lg"></i></th>
+                <th>Nazwa serwera</th>
+                <th>Opcje</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img class="table-ico" src="../imgs/logo.png"></td>
+                <td>Otto</td>
+                <td><button type="button" class="btn btn-success">Zaproś</button></td>
+              </tr>
+              <tr>
+                <td><img class="table-ico" src="../imgs/logo.png"></td>
+                <td>Thornton</td>
+                <td><button type="button" class="btn btn-success">Opcje</button></td>
+              </tr>
+              <tr>
+                <td><img class="table-ico" src="../imgs/logo.png"></td>
+                <td>the Bird</td>
+                <td><button type="button" class="btn btn-success">Opcje</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
           <div class="container text-center darkBackground features">
             <div class="row text-center">
                 <div class="col-md-6">
@@ -67,7 +97,7 @@
                 </div>
             </div>
         </div>
-
+    
 
           </section>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

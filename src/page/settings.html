@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saffy V2 | Witamy!</title>
+	<meta name="description" content="Saffy v2 Bot">
+	<meta name="keywords" content="Saffy bot">
+	<link rel="index" title="Strona główna" href="https://saffy.pl/">
+    <link rel="icon" href="img" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/faa4922b3c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../style/settings.css">
+    <!--[if lt IE 9]>
+		<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<main>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Saffy - [tutaj nazwa serwera]</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav  ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../page/panel.html">Profil Użytkownika <span class="sr-only"></span></a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../page/settings.html"><i class="fas fa-unlock-alt"></i> Komendy </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fas fa-users-cog"></i> Włącz/Wyłącz usługi </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../page/panelmenu.html">Powrót <span class="sr-only"></span></a>
+                    </li>
+    </nav>
+
+    <div class="alert alert-success" role="alert">
+        Włączono opcję
+      </div>
+      <div class="alert alert-danger" role="alert">
+        Wyłączono opcję
+      </div>
+       <h2>Moderacyjne</h2> 
+       
+    <div class="card text-left ">
+        <div class="card-body">
+          <h5 class="card-title">Banowanie użytkowników</h5>
+          <form class="form-inline">
+            <div class="form-group col-md-4">
+              <label for="staticEmail2" class="sr-only">Email</label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+            </div>
+          </form>
+          Wymagane uprawnienia: BAN_MEMBERS
+          <div class="card-header">
+            <ul class="nav nav-pills card-header-pills">
+              <li class="nav-item">
+                <button type="button" class="btn btn-outline-success"> Włącz </button>
+              </li>
+              <li class="nav-item">
+            <button type="button" class="btn btn-outline-danger"> Wyłącz </button>
+              </li>
+              <li class="nav-item">
+                <button type="submit" class="btn btn-primary mb-2"> Zapisz</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card text-left ">
+        <div class="card-body">
+          <h5 class="card-title">Wyrzucanie użytkowników</h5>
+          <form class="form-inline">
+            <div class="form-group col-md-4">
+              <label for="staticEmail2" class="sr-only">Email</label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+            </div>
+          </form>
+          Wymagane uprawnienia: KICK_MEMBERS MENAGE_MEMBERS
+          <div class="card-header">
+            <ul class="nav nav-pills card-header-pills">
+              <li class="nav-item">
+                <button type="button" class="btn btn-outline-success"> Włącz </button>
+              </li>
+              <li class="nav-item">
+            <button type="button" class="btn btn-outline-danger"> Wyłącz </button>
+              </li>
+              <li class="nav-item">
+                <button type="submit" class="btn btn-primary mb-2"> Zapisz</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+      <div class="card text-left ">
+        <div class="card-body">
+          <h5 class="card-title">Wyciszanie użytkowników</h5>
+          <form class="form-inline">
+            <div class="form-group col-md-4">
+              <label for="staticEmail2" class="sr-only">Email</label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+            </div>
+          </form>
+          Wymagane uprawnienia: MENAGE_MEMBERS
+          <div class="card-header">
+            <ul class="nav nav-pills card-header-pills">
+              <li class="nav-item">
+                <button type="button" class="btn btn-outline-success"> Włącz </button>
+              </li>
+              <li class="nav-item">
+            <button type="button" class="btn btn-outline-danger"> Wyłącz </button>
+              </li>
+              <li class="nav-item">
+                <button type="submit" class="btn btn-primary mb-2"> Zapisz</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+      <div class="card text-left ">
+        <div class="card-body">
+          <h5 class="card-title">Ostrzeganie użytkowników</h5>
+          <form class="form-inline">
+            <div class="form-group col-md-4">
+              <label for="staticEmail2" class="sr-only">Email</label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+            </div>
+          </form>
+          Wymagane uprawnienia: Brak
+          <div class="card-header">
+            <ul class="nav nav-pills card-header-pills">
+              <li class="nav-item">
+                <button type="button" class="btn btn-outline-success"> Włącz </button>
+              </li>
+              <li class="nav-item">
+            <button type="button" class="btn btn-outline-danger"> Wyłącz </button>
+              </li>
+              <li class="nav-item">
+                <button type="submit" class="btn btn-primary mb-2"> Zapisz</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="card text-left ">
+        <div class="card-body">
+          <h5 class="card-title">Czyszczenie chatu</h5>
+          <form class="form-inline">
+            <div class="form-group col-md-4">
+              <label for="staticEmail2" class="sr-only">Email</label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+            </div>
+          </form>
+          Wymagane uprawnienia: 
+          <div class="card-header">
+            <ul class="nav nav-pills card-header-pills">
+              <li class="nav-item">
+                <button type="button" class="btn btn-outline-success"> Włącz </button>
+              </li>
+              <li class="nav-item">
+            <button type="button" class="btn btn-outline-danger"> Wyłącz </button>
+              </li>
+              <li class="nav-item">
+                <button type="submit" class="btn btn-primary mb-2"> Zapisz</button>
+              </li>
+            </ul>
+          </div>
+    </div>
+</div>    
+<div class="card text-left ">
+    <div class="card-body">
+      <h5 class="card-title">Nadawanie rangi (Massrole).</h5>
+      <form class="form-inline">
+        <div class="form-group col-md-4">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+        </div>
+      </form>
+      Wymagane uprawnienia: KICK_MEMBERS MENAGE_MEMBERS
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-success"> Włącz </button>
+          </li>
+          <li class="nav-item">
+        <button type="button" class="btn btn-outline-danger"> Wyłącz </button>
+          </li>
+          <li class="nav-item">
+            <button type="submit" class="btn btn-primary mb-2"> Zapisz</button>
+          </li>
+        </ul>
+      </div>
+</div>
+</div>
+<h2>Administracyjne</h2>
+<div class="card text-left ">
+    <div class="card-body">
+      <h5 class="card-title">Ankietaw</h5>
+      <form class="form-inline">
+        <div class="form-group col-md-4">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+        </div>
+      </form>
+      Wymagane uprawnienia: KICK_MEMBERS MENAGE_MEMBERS
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-success"> Włącz </button>
+          </li>
+          <li class="nav-item">
+        <button type="button" class="btn btn-outline-danger"> Wyłącz </button>
+          </li>
+          <li class="nav-item">
+            <button type="submit" class="btn btn-primary mb-2"> Zapisz</button>
+          </li>
+        </ul>
+      </div>
+</div>
+</div>
+<div class="card text-left ">
+    <div class="card-body">
+      <h5 class="card-title">Embed</h5>
+      <form class="form-inline">
+        <div class="form-group col-md-4">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+        </div>
+      </form>
+      Wymagane uprawnienia: KICK_MEMBERS MENAGE_MEMBERS
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-success"> Włącz </button>
+          </li>
+          <li class="nav-item">
+        <button type="button" class="btn btn-outline-danger"> Wyłącz </button>
+          </li>
+          <li class="nav-item">
+            <button type="submit" class="btn btn-primary mb-2"> Zapisz</button>
+          </li>
+        </ul>
+      </div>
+</div>
+</div>
+<div class="card text-left ">
+    <div class="card-body">
+      <h5 class="card-title">odetnij</h5>
+      <form class="form-inline">
+        <div class="form-group col-md-4">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+        </div>
+      </form>
+      Wymagane uprawnienia: KICK_MEMBERS MENAGE_MEMBERS
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-success"> Włącz </button>
+          </li>
+          <li class="nav-item">
+        <button type="button" class="btn btn-outline-danger"> Wyłącz </button>
+          </li>
+          <li class="nav-item">
+            <button type="submit" class="btn btn-primary mb-2"> Zapisz</button>
+          </li>
+        </ul>
+      </div>
+      
+</div>
+</div>
+<div class="form card text-left ">
+    <div class="card-body">
+      <h5 class="card-title">Wiadomość powitalna</h5>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+        </div>
+        <div class="form-group mx-sm-2 mb-2">
+          <label for="inputPassword2" class="sr-only"> </label>
+          <input type="text" class="form-control" id="inputPassword2" placeholder="">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Zapisz</button>
+      </form>
+      Dostępne prefixy: $user, $name <br>
+      Przykład: Witamy $user na naszym serwerze!
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <button type="button" class="btn btn-success">Włącz</button>
+          </li>
+          <li class="nav-item">
+        <button type="button" class="btn btn-danger">Wyłącz</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+<div class="form card text-left ">
+    <div class="card-body">
+      <h5 class="card-title">Wiadomość powitalna</h5>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+        </div>
+        <div class="form-group mx-sm-2 mb-2">
+          <label for="inputPassword2" class="sr-only"> </label>
+          <input type="text" class="form-control" id="inputPassword2" placeholder="">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Zapisz</button>
+      </form>
+      Dostępne prefixy: $user, $name <br>
+      Przykład: Witamy $user na naszym serwerze!
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <button type="button" class="btn btn-success">Włącz</button>
+          </li>
+          <li class="nav-item">
+        <button type="button" class="btn btn-danger">Wyłącz</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+</div>
+<div class="form card text-left ">
+    <div class="card-body">
+      <h5 class="card-title">Wiadomość powitalna</h5>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="">
+        </div>
+        <div class="form-group mx-sm-2 mb-2">
+          <label for="inputPassword2" class="sr-only"> </label>
+          <input type="text" class="form-control" id="inputPassword2" placeholder="">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Zapisz</button>
+      </form>
+      Dostępne prefixy: $user, $name <br>
+      Przykład: Witamy $user na naszym serwerze!
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <button type="button" class="btn btn-success">Włącz</button>
+          </li>
+          <li class="nav-item">
+        <button type="button" class="btn btn-danger">Wyłącz</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+</div>
+
+</main>
+</body>
+</html>

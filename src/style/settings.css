@@ -1,0 +1,22 @@
+h2 {
+    text-align: center;
+    margin-top: 25px;
+}
+.card {
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 10px;
+    
+    
+}
+button {
+    margin-left: 5px;
+}
+.alert {
+    text-align: center;
+}
+.form {
+    width: 959,5px;
+    text-align: center;
+    display: inline-block;
+}
